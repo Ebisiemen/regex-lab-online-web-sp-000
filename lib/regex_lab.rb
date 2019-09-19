@@ -26,5 +26,3 @@ phone.gsub!(/\D/, '')
 end
   # /w - words \A	Start of string 
 # (...)	Capture everything enclosed
-binding.pry
-p 'eof'
