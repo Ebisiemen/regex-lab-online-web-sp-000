@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 def starts_with_a_vowel?(word)
   word.match(/^[aeiouAEIOU]\w+/) ? true : false
 end
@@ -26,3 +26,5 @@ phone.gsub!(/\D/, '')
 end
   # /w - words \A	Start of string 
 # (...)	Capture everything enclosed
+# binding.pry
+# p 'eof'
