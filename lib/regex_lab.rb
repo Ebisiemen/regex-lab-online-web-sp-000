@@ -4,8 +4,6 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
    text.scan(/\b(un)[a-z]*(ing)\b/)
-  # /w - words \A	Start of string 
-# (...)	Capture everything enclosed
 end
 
 def words_five_letters_long(text)
